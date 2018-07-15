@@ -91,11 +91,11 @@ $L_{0,1}(Y,f(X) = 1$ \quad if $Y\cdot sign(f(X)) \leq 0$, numerically infeasible
 
 \subsection{Convexity}
     \begin{emphbox}
-    	in convex set $\mathcal{C} \subset \R$, $f$ is convex, if $tf(\boldsymbol{x_2}+(1-t)f(\boldsymbol{x_1} \leq f(t\boldsymbol{x_2}+(1-t)\boldsymbol{x_1} \quad \forall \boldsymbol{x_1,x_2}\in \mathcal{C}, t\in[0,1]$
+    	in convex set $\mathcal{C} \subset \R$, $f$ is convex, if $tf(\boldsymbol{x_2}+(1-t)f(\boldsymbol{x_1}) \ge f(t\boldsymbol{x_2}+(1-t)\boldsymbol{x_1} \quad \forall \boldsymbol{x_1,x_2}\in \mathcal{C}, t\in[0,1]$
 	\end{emphbox}
 	if $f,g$ convex, then: $max(f,g)$, $f+g$, $g\circ h$ (if g non-decreasing) are convex. Local minimum of \emph{strictly} convex is global minimum and unique\\
 	\begin{center}
-	    \includegraphics[width = 0.7\columnwidth]{template-files/figures/convexity.png}
+	    \includegraphics[width = 0.7\columnwidth]{figures/convexity.png}
 	\end{center}
 \subsection{Logistic Regression}
 
@@ -560,7 +560,7 @@ The ROC curve is a graphical plot that illustrates the diagnostic ability of a b
     \item The likelihood ratio; given by the derivative at any particular cutpoint.
 \end{itemize}
 \begin{center}
-	    \includegraphics[width = 0.9\columnwidth]{template-files/figures/sphx_glr_plot_roc_001.png}
+	    \includegraphics[width = 0.9\columnwidth]{figures/sphx_glr_plot_roc_001.png}
 	\end{center}
 The \textbf{Area under the Curve (AUC)} is the integral of the ROC Curve and gives a measure how good the classifier is. An area under the ROC curve of 0.8, for example, means that a randomly selected case from the group with the target equals 1 has a score larger than that for a randomly chosen case from the group with the target equals 0 in 80\% of the time. When a classifier cannot distinguish between the two groups, the area will be equal to 0.5 (the ROC curve will coincide with the diagonal). When there is a perfect separation of the two groups, i.e., no overlapping of the distributions, the area under the ROC curve reaches to 1 (the ROC curve will reach the upper left corner of the plot). 
 \end{sectionbox}
@@ -577,7 +577,7 @@ The \textbf{Area under the Curve (AUC)} is the integral of the ROC Curve and giv
 \end{itemize}
 
 \begin{center}
-	    \includegraphics[width = 0.9\columnwidth]{template-files/figures/angular_distance_plot.png}
+	    \includegraphics[width = 0.9\columnwidth]{figures/angular_distance_plot.png}
 	\end{center}
 \end{sectionbox}
 
@@ -610,16 +610,16 @@ where $\epsilon$ is usually chosen to be between 0.01 and 0.2. Energy is not alw
 \end{sectionbox}
 
 \begin{center}
-	    \includegraphics[width = 0.9\columnwidth]{template-files/figures/error_if_removed.png}
+	    \includegraphics[width = 0.9\columnwidth]{figures/error_if_removed.png}
 	\end{center}
 \begin{center}
-	    \includegraphics[width = 0.7\columnwidth]{template-files/figures/PCA_case1.png}
+	    \includegraphics[width = 0.7\columnwidth]{figures/PCA_case1.png}
 	\end{center}
 \begin{center}
-	    \includegraphics[width = 0.7\columnwidth]{template-files/figures/PCA_case2.png}
+	    \includegraphics[width = 0.7\columnwidth]{figures/PCA_case2.png}
 	\end{center}
 \begin{center}
-	    \includegraphics[width = 0.7\columnwidth]{template-files/figures/PCA_case3.png}#
+	    \includegraphics[width = 0.7\columnwidth]{figures/PCA_case3.png}#
 	\end{center}
 % DOCUMENT_END =================================================================
 \end{document}
